@@ -2578,9 +2578,11 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			text-align: left;
-			width: 50%;
+			width: 33%;
 		}
-
+			li p {
+			font-size: small;	
+			}
 			.features li:nth-child(1) {
 				background-color: rgba(0, 0, 0, 0.035);
 			}
