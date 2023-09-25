@@ -2715,6 +2715,37 @@ input, select, textarea {
 			max-width: 48em;
 			width: 60%;
 		}
+		.spotlight .rec_image {
+			padding: 1em 1em 1em 1em ;
+			-moz-order: 1;
+			-webkit-order: 1;
+			-ms-order: 1;
+			order: 1;
+			border-radius: 0;
+			width: 20%;
+		}
+
+			.spotlight .rec_image img {
+
+				border-radius: 0;
+				width: 100%;
+			}
+			.rec_image a {
+				border: none;
+			}
+
+
+
+		.spotlight .rec_content {
+			padding: 2em 4em 0.1em 4em ;
+			margin: 0;
+			-moz-order: 2;
+			-webkit-order: 2;
+			-ms-order: 2;
+			order: 2;
+			max-width: 80em;
+			width: 80%;
+		}
 
 		.spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
@@ -2788,11 +2819,20 @@ input, select, textarea {
 				.spotlight .image {
 					width: 100%;
 				}
+				.spotlight .rec_image {
+					width: 50%;
+				}
 
 				.spotlight .content {
 					padding: 4em 3em 2em 3em ;
 					max-width: none;
-					text-align: center;
+					text-align: left;
+					width: 100%;
+				}
+				.spotlight .rec_content {
+					padding: 0em 3em 2em 3em ;
+					max-width: none;
+					text-align: left;
 					width: 100%;
 				}
 
